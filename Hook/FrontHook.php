@@ -33,6 +33,6 @@ class FrontHook extends BaseHook
     }
     public function onDeliveryBottom (HookRenderEvent $event)
     {
-        $event->add($this->render("cart-comment.html"));
+        $event->add($this->render("order-delivery-comment.html"));
     }
 }
